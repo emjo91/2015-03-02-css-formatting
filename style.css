@@ -1,0 +1,134 @@
+/* General Styles */
+* {
+  margin: 0 auto;
+}
+
+body {
+  background: #1a1a1a;
+  width: 100%;
+}
+
+/* Header Styles */
+
+header {
+  background: #121212;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-image {
+  padding: 0 20px;
+}
+
+.middle-image {
+  border-right: 1px solid #b3b3b3;
+  border-left: 1px solid #b3b3b3;
+  padding: 0 20px;
+}
+
+/* Main Styles */
+/* This needs to have an image as the background */
+#main-div {
+  text-align: center;
+  background-image: url("images/banner.jpg");
+  padding: 0 0 20px 0;
+}
+
+.script-header {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Lobster Two";
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+}
+
+.normal-header {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Arial";
+  padding: 0;
+  margin: 0 auto;
+}
+
+.condensed-header {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Arial Narrow";
+  padding: 0 0 20px;
+  margin: 0 auto;
+}
+
+/* All text should be caps */
+.black-rounded-button {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background: #0a0a0a;
+  margin: auto auto;
+}
+
+
+/* Image Container */
+#image-container{
+  margin: 20px 40px 100px 40px;
+  text-align: center;
+}
+
+.round-corners {
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+
+/* Footer Styles */
+
+footer {
+  background: #131313;
+  padding: 40px 20px;
+}
+
+p.footer-text {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+
+a.footer_nav {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+a.footer_nav:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  float: right;
+}
+
+
+/* Misc */
+.clear-float {
+  clear: both;
+  padding: 5px 0;
+}
+
