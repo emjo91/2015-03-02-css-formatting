@@ -1,0 +1,103 @@
+body.main-page {
+  background: #ffffff;
+}
+
+h1.script-main {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Lobster Two";
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+/* Nav up top */
+
+nav.main-nav {
+  margin: 40px 0 0 0;
+}
+
+ul.main-nav {
+  float: none;
+  text-align: center;
+  margin: 0;
+}
+
+li.main-nav {
+  text-align: center;
+  display: inline-block;
+  padding: 0 15px 15px 15px;
+  margin: 0;
+}
+
+a.main-nav {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p.bar {
+  font-size: 20px;
+  color: #000000;
+}
+
+a.main-nav:hover {
+  color: #b3b3b3;
+  }
+  a.main-nav:active {
+    color: #bada55;
+  }
+
+/* Not working */
+a:active {
+  color: #bada55;
+}
+
+/* The underline under the words, in the nav, look like underline...
+   But they're just dotted bottom-borders under the block element.*/
+
+/* Black Tops */
+.black-top {
+  width: 100%;
+  margin: 20px 20px 0 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h3.black-top-header {
+  font-size: 20px;
+  font-color: #ffffff;
+  font-family: sans-serif;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.black-top-left {
+  float: left;
+}
+
+.black-top-right {
+  float: right;
+  border-left: 1px dotted #ffffff;
+}
+
+
+/* Main Content */
+
+.bordered-content {
+  /* Not sure if I can do that...*/
+  border: 0 1px 1px 1px solid #000000;
+}
+
+p.main-left-align {
+  text-align: left;
+  font-family: sans-serif;
+}
+
+p.main-right-align {
+  text-align: right;
+  font-weight: bold;
+  font-family: sans-serif;
+}
